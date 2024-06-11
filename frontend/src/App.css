@@ -8,18 +8,19 @@ body {
   padding: 20px;
 }
 
-.task-form, .filter, .task-list {
+.task-form, .filter, .task-list, .auth-form {
   margin-bottom: 20px;
 }
 
-.task-form input, .task-form textarea, .task-form select, .filter select {
+.task-form input, .task-form textarea, .task-form select, .filter select, .auth-form input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
 }
 
-.task-form button {
+.task-form button, .auth-form button {
   padding: 10px 20px;
+  margin-right: 10px;
 }
 
 .task {
@@ -30,4 +31,30 @@ body {
 
 .task-actions button {
   margin-right: 10px;
+}
+
+.auth-form {
+  background-color: #f9f9f9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form input {
+  display: block;
+  width: 540px;
+  margin-bottom: 15px;
+}
+
+.auth-form button {
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.auth-form button:nth-child(2) {
+  margin-left: 6%;
 }
