@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task-form, .filter, .task-list {
+  margin-bottom: 20px;
+}
+
+.task-form input, .task-form textarea, .task-form select, .filter select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task-actions button {
+  margin-right: 10px;
+}
